@@ -36,4 +36,4 @@ Si vous souhaitez contribuer à ce projet, n'hésitez pas à cloner le référen
 
 ### Vue génerale
 
-![Screenshot](Capture.jpg)
+![Capture](Capture.JPG)
