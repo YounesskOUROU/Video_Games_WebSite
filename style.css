@@ -1,0 +1,390 @@
+/*style du site web*/
+/*-----------------*/
+/*style du body et du mise en page*/
+body{
+    background-color: #333;
+}
+
+.page{
+    display: flex;
+    flex-wrap:wrap;
+    margin: auto;
+    background-image: url("img_site/background.gif");
+    max-width: 1200px;
+    height: 100vh;
+
+}
+
+/*Le contenu de la page*/
+/*----------------------*/
+@font-face {
+    font-family : "zorque";
+    src:url("font/zorque.otf") format("truetype");
+}
+.titre{
+    width: 70%;
+    height: 175px;
+    float: left;
+}
+
+.titre_logo img{
+    float: left;
+    width : 150px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.titre-1{
+    font-family: "zorque";
+    width: 80%;
+    height: 40px;
+    margin-top: 75px;
+    margin-left: 20px;
+}
+/*----------------------*/
+.authentification{
+    width: 30%;
+    height: 175px;
+    float: right;
+    margin-top: 40px;
+    margin-left: -15px;
+}
+.login{
+    background-color: #4494cb;
+    height: 50%;
+    padding-right: 20px;
+
+
+}
+.login label{
+    width: 60%;
+    float : right;
+    text-align: right;
+    clear: both;
+    margin-left: -10px;
+}
+.login input[type="text"], .login input[type="password"] {
+  display: inline-block;
+  float: right;
+  clear: both;
+}
+
+.boutons{
+    text-align: center;
+}
+
+@font-face {
+    font-family : "mist";
+    src:url("font/mist.ttf") format("truetype");
+}
+
+.bouton{ 
+    background-color:#fff;
+    height:26px;
+    border-bottom:2px solid #092435;
+    padding:3px 10px 3px 10px;
+    margin:3px 10px 3px 10px;
+    font-family:"mist";
+    font-weight:normal;
+    font-size:18px;
+    color:#092435;
+    text-align: center;
+}
+.input{
+    background-color:#fff;
+    height:26px;
+    border-bottom:2px solid #092435;
+    padding:3px 10px 3px 10px;
+    margin:3px 10px 3px 10px;
+    font-family:"mist";
+    font-weight:normal;
+    font-size:18px;
+    color:#092435;
+    text-align: center;
+}
+.retour{
+    background-color:#fff;
+    height:26px;
+    border-bottom:2px solid #092435;
+    padding:3px 10px 3px 10px;
+    font-family:"mist";
+    font-weight:normal;
+    font-size:18px;
+    color:#092435;
+    text-align: center;
+
+}
+.bouton:hover , .retour:hover{
+    background-color:#092435;
+    border-bottom:2px solid #fff;
+    color:#fff;
+}
+
+
+
+/*-----------------------*/
+.contenu{
+    width: 70%;
+    height: 500px;
+}
+.contenu label{
+    font-family: "zorque";
+    text-align: center;
+}
+.cat1{
+    float: left;
+    margin-left: 70px;
+    text-align: center;
+}
+.simulation{
+    border: 2px solid black;
+    background-color: #4494cb;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simulation:hover{
+    background-color:#092435;
+}
+.simulation img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+    text-align: center;
+}
+
+/*--*/
+.cat2{
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+}
+.combat {
+    border: 2px solid black;
+    background-color: #4494cb;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.combat:hover{
+    background-color:#092435;
+}
+  
+.combat img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+}
+/*--*/
+.cat3{
+    float: left;
+    margin-left: 150px;
+    text-align: center;
+}
+.aventure {
+    border: 2px solid black;
+    background-color: #4494cb;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.aventure:hover{
+    background-color:#092435;
+}
+.aventure img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+}
+/*--*/
+.cat4{
+    float: left;
+    margin-left: 200px;
+    text-align: center;
+}
+.sport {
+    border: 2px solid black;
+    background-color: #4494cb;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sport:hover{
+    background-color:#092435;
+}
+.sport img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+}
+/*---*/
+.cat5{
+    float: left;
+    margin-left: 200px;
+    text-align: center;
+}
+.horreur {
+    border: 2px solid black;
+    background-color: #4494cb;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.horreur:hover{
+    background-color:#092435;
+}
+.horreur img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: cover;
+}
+/*-----------------------*/
+.panier{
+    width: 30%;
+    height: 500px;
+    float: left;
+}
+@font-face {
+    font-family : "calibri";
+    src:url("font/calibri.ttf") format("truetype");
+}
+.panier_conteneur{
+    background: linear-gradient(#fff,#d8d8d8);
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    margin-right: 15px;
+}
+
+.panier_conteneur img{
+    width: 50px;
+    height:auto;
+    margin-left: 150px;
+}
+.panier_texte{
+    float: left;
+    font-family: "calibri";
+    margin-top: 15px;
+    margin-right: 140px;
+}
+/*=======================================stylespour la listes des jeux===================================*/
+.jeux_conteneur
+{
+    background: linear-gradient(#fff,#d8d8d8);
+    height: 160px;
+    width: 350px;
+    margin-left: 20px;
+    float : left;
+    margin-top: 20px;
+}
+.jeux img{
+    height: 150px;
+    width: 100px;
+    float:left;
+    margin-top: 3px;
+}
+.jeux_infos{
+    margin-left: 50px;
+    margin-top: 10px;
+}
+.scrolleur{
+    width: 800px;
+    height: 360px;
+    overflow-y: scroll;
+     scroll-behavior: smooth;
+}
+.scrolleur::-webkit-scrollbar {
+    width: 5px;
+    height: 8px;
+    background-color: #092435; /* or add it to the track */
+}
+.scrolleur::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+/*-------------------------------------multiple devices formats-------------------------------*/
+/*La mise en page pour une grande ecran*/
+
+/*La mise en page pour une tablette*/
+@media  screen and (min-width : 750px) and (max-width : 1200px){
+    .titre{
+        width: 70%;
+        height: 175px;
+    }
+
+    .authentification{
+        width: 30%;
+        height: 175px;
+    }
+
+    .contenu{
+        width: 70%;
+        height: 500px;
+    }
+    
+    .panier{
+        width: 30%;
+        height: 500px;
+    }
+}
+/*La mise en page pour un telephone*/
+@media  screen and (max-width : 750px) {
+    .titre{
+        width: 100%;
+    }
+
+    .titre_logo img{
+        width: 100px;
+        height: auto;
+    }
+
+    .authentification{
+        width: 100%;
+    }
+
+    .contenu{
+        width: 100%;
+    }
+    
+    .panier{
+        width: 100%;
+    }
+    .panier_conteneur{
+        width: 100%;
+    }
+    .cat1{
+        margin-left: 20px;
+    }
+    .cat2{
+        margin-left: 20px;
+    }
+    .cat3{
+        margin-left: 20px;
+    }
+    .cat4{
+        margin-left: 20px;
+    }
+    .cat5{
+        margin-left: 20px;
+    }
+}
